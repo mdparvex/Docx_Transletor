@@ -1,0 +1,1 @@
+zip -r archive.zip $(find . -type f -not \( -name '*_solution.py' -or -path '*.git*' \))

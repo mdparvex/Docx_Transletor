@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wsd-ai-tech-test"
+version = "0.1.0"
+description = "A technical test for pythonistas at wsd"
+authors = ["WSD AI Team"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+argostranslate = "^1.9.6"
+python-docx = "^1.1.2"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
