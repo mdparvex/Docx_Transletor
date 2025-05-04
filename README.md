@@ -13,13 +13,19 @@ This project provides API for translating Microsoft Word (`.docx`) documents usi
 - run "python test_app.py"
 
 ## API documentation
-Method: POST
+### Method: POST
+```http
  Endpoint: localhost:8000/translate
- Content-Type: multipart/form-data
+```
+ ** Content-Type: multipart/form-data **
+ ```json
  form-data parameters:{
     "file": .docx file,
     "source_lang": "en",
     "target_lang": "fr"
 }
+```
+```json
  Response: File download (.docx) -translated file will save to the sample_docs directory
+```
 
