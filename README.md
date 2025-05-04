@@ -4,13 +4,25 @@ This project provides API for translating Microsoft Word (`.docx`) documents usi
 
 ## setup instruction
 - go to project root directory in your terminal
-- activate virtual environment and run "pip install -r requirements.txt"
-- go to project root directory and run "flask run"
+- activate virtual environment and run
+  ```bash
+  pip install -r requirements.txt"
+  ```
+- go to project root directory and run
+  ```bash
+  flask run"
+  ```
+**If you want to run in Docker**
 
-- run "docker-compose up --build" (if you want to run in docker)
+```bash
+docker-compose up --build
+```
 
 ## run testcase
-- run "python test_app.py"
+**run**
+```bash
+ python test_app.py
+```
 
 ## API documentation
 ### Method: POST
