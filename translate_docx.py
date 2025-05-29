@@ -49,16 +49,6 @@ def translate(source_lang: str, target_lang: str, verbose=False) -> str:
         - Uses MODEL_NAME and MODEL_URL from environment variables
         - Logs translations to 'translations.txt'
     """
-    # TODO (ex.2) : You can modify this function except line 41-42
-    # Download and install Argos Translate package
-    # argostranslate.package.update_package_index()
-    # available_packages = argostranslate.package.get_available_packages()
-    # package_to_install = next(
-    #     filter(
-    #         lambda x: x.from_code == source_lang and x.to_code == target_lang, available_packages
-    #     )
-    # )
-    # argostranslate.package.install_from_path(package_to_install.download())
 
     multiple_language_translation_setup(source_lang, target_lang)
     def translation_func(text: str) -> str:
@@ -103,8 +93,7 @@ def translate_docx(input_path, output_path, source_lang, target_lang):
     TODO (ex.1) : finish this doc
     I could use parallan processing in this function to reduce execution time.
     """
-    # TODO (ex.2) : You can modify this whole function to make the process faster
-    # Open the document
+   
     start = time.time()
 
     translation_func  = translate(source_lang, target_lang)#partial(translate, source_lang=source_lang, target_lang=target_lang)
