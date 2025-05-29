@@ -20,7 +20,7 @@ Exercise 2 should be tackled only if you have time left over after completing th
 
 If you are struggling of lacking code time, do not hesitate to write your thoughts in `tasks.md` file. 
 
-## Exercise 1 - Production-Ready Code (recommended 2 hours)
+## Step 1 - Production-Ready Code
 
 - Improve code readability, add execution tracking with logging, and refactor the code to support more languages than just English and French.
 
@@ -31,7 +31,7 @@ If you are struggling of lacking code time, do not hesitate to write your though
 - Provide a detailed `README_api.md` so that your colleagues can easily launch and test the API.
 
 
-## Exercise 2 - Optimization (recommended 1 hours)
+## Step 2 - Optimization
 Currently, the code is very slow (arround 200 seconds per file). Use your knowledge of python and its libraries to optimize the code. Propose improvements and optimizations to make it run faster.
 
 - Leverage the `TODO (ex.2)` markers within the code, as they suggest areas where you should focus on improving performance.
